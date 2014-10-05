@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "403f32dfb03b11778437d874519055ef",
+    "hash": "1483021ac3cf89060ee228fccd2e8485",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -234,16 +234,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.2.10",
+            "version": "v4.2.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3fe430a55ec73346c708f0b864820528d6c28eda"
+                "reference": "e29253c7f29e3b1ca716de7fe309b272e3ddf47d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3fe430a55ec73346c708f0b864820528d6c28eda",
-                "reference": "3fe430a55ec73346c708f0b864820528d6c28eda",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e29253c7f29e3b1ca716de7fe309b272e3ddf47d",
+                "reference": "e29253c7f29e3b1ca716de7fe309b272e3ddf47d",
                 "shasum": ""
             },
             "require": {
@@ -345,7 +345,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-10-02 19:50:12"
+            "time": "2014-10-04 18:48:27"
         },
         {
             "name": "monolog/monolog",

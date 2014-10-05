@@ -1,7 +1,6 @@
 ## Potato Flickr Feed
 
-Based upon Laravel & Angular JS. All precompiled files and third party code has been included for simplicity.
-
+ - Composer & NPM
  - Single page app.
  - Based upon Potato Wireframes.
  - Bootstrap 3, jQuery, Angular JS, Laravel, Grunt, Bower
@@ -12,22 +11,24 @@ Based upon Laravel & Angular JS. All precompiled files and third party code has 
  - Same view displayed if the link is shared or the page is refreshed.
  - 1 JS file and 1 css file which can be cached indefinitely, the cachebuster will modify the URL each time the file changes.
 
-# Future development / Todo
-
-Tags within each photo are click able but currently do nothing. This should populate a search box and filter items.
-
-Controllers and Services are separated to allow for easy unit testing
-
 # Build process
 
 Run `grunt` or `grunt watch` to build CSS/JS.
 
 # Deployment
 
-Run `composer install` to install composer and bower components and build the css/js.
-
-Rewrite rules for Apache and nginx need to be added. (https://github.com/TheMonkeys/laravel-cachebuster)
+1) Pull the project from git hub, and point the virtual host to the public directory.
+2) Run `composer install` to install npm, composer and bower components and build the css/js.
+3) Add rewrite rules for Apache/nginx. See: https://github.com/TheMonkeys/laravel-cachebuster.
 
 # Development
 
+`composer update` updates all packages and builds css/js.
+
 `php artisan serve` fires up a PHP webserver. Routes have been added to support the cachebusting on the css/js files.
+
+# Future development / Todo
+
+Tags within each photo are click able but currently do nothing. This should populate a search box and filter items.
+
+Controllers and Services are separated to allow for easy unit testing
