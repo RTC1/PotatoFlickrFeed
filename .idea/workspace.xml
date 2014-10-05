@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f94fa6-6723-4c24-97ba-65d1e89706d4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/controllers/mainCtrl.js" afterPath="$PROJECT_DIR$/assets/js/controllers/mainCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="PotatoFlickrFeed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,20 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="585">
-              <caret line="10" column="69" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.57759625" vertical-offset="0" max-vertical-offset="857">
+              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/controllers/mainCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3707483" vertical-offset="528" max-vertical-offset="1410">
+            <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="1410">
               <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
               <folding />
             </state>
@@ -84,8 +84,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/bootstrap/start.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/assets/js/controllers/mainCtrl.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -597,18 +597,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/assets/js/controllers/mainCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="585">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="1410">
+          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/controllers/mainCtrl.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3707483" vertical-offset="528" max-vertical-offset="1410">
-          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.57759625" vertical-offset="0" max-vertical-offset="857">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
           <folding />
         </state>
       </provider>

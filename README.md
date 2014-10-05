@@ -13,13 +13,13 @@
 
 # Build process
 
-Run `grunt` or `grunt watch` to build CSS/JS.
+Run `grunt` or `grunt watch` to build, or continuously build, the CSS and JS .
 
 # Deployment
 
-1) Pull the project from git hub, and point the virtual host to the public directory.
-2) Run `composer install` to install npm, composer and bower components and build the css/js.
-3) Add rewrite rules for Apache/nginx. See: https://github.com/TheMonkeys/laravel-cachebuster.
+ - 1) Pull the project from git hub, and point the virtual host to the public directory
+ - 2) Run `composer install` to install npm, composer and bower components and build the css/js
+ - 3) Add rewrite rules for Apache/nginx. See: https://github.com/TheMonkeys/laravel-cachebuster
 
 # Development
 
@@ -31,4 +31,4 @@ Run `grunt` or `grunt watch` to build CSS/JS.
 
 Tags within each photo are click able but currently do nothing. This should populate a search box and filter items.
 
-Controllers and Services are separated to allow for easy unit testing
+Controllers and Services are separated to allow for easy implementation of unit testing
