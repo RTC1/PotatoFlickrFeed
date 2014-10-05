@@ -17,8 +17,6 @@ Tags within each photo are click able but currently do nothing. This should popu
 
 Controllers and Services are separated to allow for easy unit testing
 
-For SEO purposes
-
 # Build process
 
 Run `grunt` or `grunt watch` to build CSS/JS.
