@@ -17,12 +17,14 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
+            "npm install",
             "bower install",
             "grunt",
 			"php artisan clear-compiled",
 			"php artisan optimize"
 		],
 		"post-update-cmd": [
+            "npm update",
             "bower update",
             "grunt",
 			"php artisan clear-compiled",
