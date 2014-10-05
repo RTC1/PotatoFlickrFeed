@@ -1,15 +1,15 @@
 ## Potato Flickr Feed
 
- - Composer & NPM
- - Single page app.
- - Based upon Potato Wireframes.
- - Bootstrap 3, jQuery, Angular JS, Laravel, Grunt, Bower
- - Responsive design.
+ - Requires: Composer, NodeJS, NPM, Bower and Grunt
+ - Single page app
+ - Based upon Wireframes provided by Potato
+ - Bootstrap 3, jQuery, Angular JS, Laravel
+ - Responsive design
  - HTML5
  - LESS
  - Infinite scrolling
- - Same view displayed if the link is shared or the page is refreshed.
- - 1 JS file and 1 css file which can be cached indefinitely, the cachebuster will modify the URL each time the file changes.
+ - Same view displayed if the link is shared or the page is refreshed
+ - 1 JS file and 1 css file which can be cached indefinitely, the cachebuster will modify the URL each time the file changes
 
 # Build process
 
