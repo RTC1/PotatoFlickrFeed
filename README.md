@@ -10,6 +10,7 @@ Based upon Laravel & Angular JS. All precompiled files and third party code has 
  - LESS
  - Infinite scrolling
  - Same view displayed if the link is shared or the page is refreshed.
+ - 1 JS file and 1 css file which can be cached indefinitely, the cachebuster will modify the URL each time the file changes.
 
 # Future development / Todo
 
@@ -23,10 +24,10 @@ Run `grunt` or `grunt watch` to build CSS/JS.
 
 # Deployment
 
-Run `composer install` - Installs composer and bower components, and builds the css/js.
+Run `composer install` to install composer and bower components and build the css/js.
 
 Rewrite rules for Apache and nginx need to be added. (https://github.com/TheMonkeys/laravel-cachebuster)
 
 # Development
 
-`php artisan serve` - Fires up a PHP webserver. Routes have been added to support the cachebusting on css/js.
+`php artisan serve` fires up a PHP webserver. Routes have been added to support the cachebusting on the css/js files.
