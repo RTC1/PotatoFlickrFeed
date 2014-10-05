@@ -1,0 +1,28 @@
+{
+    "name": "Potato Flickr Feed",
+    "description": "Potato Flickr Feed Workflow",
+    "homepage": "https://github.com/RTC1/PotatoFlickrFeed",
+    "version": "1.0.0",
+    "author": {
+        "name": "RTC1",
+        "url": "https://github.com/RTC1/",
+        "role": "Developer"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-compress": "~0.5.2",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-cssmin": "~0.6.1",
+        "grunt-contrib-jshint": "~0.6.0",
+        "grunt-contrib-less": "~0.6.4",
+        "grunt-contrib-sass": "~0.4.1",
+        "grunt-contrib-stylus": "~0.7.0",
+        "grunt-contrib-livereload": "~0.1.2",
+        "grunt-contrib-uglify": "~0.2.2",
+        "grunt-contrib-watch": "~0.5.1",
+        "grunt-contrib-copy": "~0.6.0",
+        "grunt-notify": "~0.2.4",
+        "grunt-phpunit": "~0.3.0"
+    }
+}

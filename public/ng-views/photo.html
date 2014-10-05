@@ -1,0 +1,44 @@
+<p class="text-center" ng-show="loading"><span class="fa fa-spinner fa-5x fa-spin"></span></p>
+
+<div ng-hide="loading" class="photo panel panel-default">
+
+    <div class="panel-heading">
+
+        <a href="#/" class="back">
+            <span class="fa fa-chevron-circle-left fa-3x"></span>
+        </a>
+
+        <h3><a href="{{ photo.link }}">{{ photo.title }}</a></h3>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <a href="https://www.flickr.com/photos/{{ photo.author_id }}" class="photo-author">{{ photo.author_name }}</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 photo-date">
+                Published {{ photo.date_taken | ordinalDate:"d MMM yyyy 'at' H:m" }}
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-xs-4 photo-img">
+                <img ng-src="{{ photo.media.m }}" class="img-responsive">
+            </div>
+            <div class="col-xs-8">
+                <blockquote class="photo-description" ng-bind-html="photo.description">
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-8 col-md-offset-4">
+                Tags:
+                <ul class="tags">
+                    <li ng-repeat="tag in photo.tags" class="active">
+                        <a href ng-href="#/tag/{{ tag }}">{{ tag }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

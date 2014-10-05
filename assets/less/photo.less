@@ -1,0 +1,42 @@
+.photo {
+
+  .back {
+    float: right;
+    margin-top: 15px;
+  }
+
+  .photo-date {
+    @media (min-width: @screen-sm-min) {
+      text-align: right;
+    }
+  }
+
+  .tags {
+
+    @media (min-width: @screen-sm-min) {
+      .nav;
+      .nav-pills;
+    }
+
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin: 5px;
+
+      @media (max-width: @screen-xs-max) {
+        float: left;
+        display: inline;
+        border-right: 1px solid @gray-lighter;
+        margin: 0px 3px 3px 0px;
+        padding: 3px;
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+
+
+    }
+  }
+}

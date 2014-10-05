@@ -1,0 +1,84 @@
+.photo-list {
+
+  .panel;
+  .panel-default;
+
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  .photo-img {
+
+    @media (max-width: @screen-xs-max) {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    @media (max-width: @screen-sm-max) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .thumbnail {
+
+      margin-bottom: 0;
+
+      @media (max-width: @screen-sm-max) {
+        padding: 0;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .photo-info {
+
+    @media (max-width: @screen-xs-max) {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    height: 100%;
+    position: relative;
+
+    h3 {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 18px;
+
+      @media (max-width: @screen-xs-max) {
+        font-size: 18px;
+        padding: 0;
+        margin: 5px 0px 5px 0px;
+      }
+    }
+
+    .photo-date {
+      padding: 0;
+      margin: 0px 0px 5px 0px;
+      font-size: 12px;
+    }
+
+    .photo-links {
+
+      span, a {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+      }
+
+      @media (min-width: @screen-md-min) {
+        .photo-date {
+          text-align: center;
+        }
+
+        .photo-link {
+          text-align: right;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,26 @@
+<p class="text-center" ng-show="loading"><span class="fa fa-spinner fa-5x fa-spin"></span></p>
+
+<div infinite-scroll="loadMore()" infinite-scroll-distance="2">
+    <div class="photo-list" ng-hide="loading" ng-repeat="photo in scrollPhotos">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-4 photo-img">
+                    <a href ng-href="#/photo/{{ photo.id }}" class="thumbnail">
+                        <img ng-src="{{ photo.media.m }}" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-8 photo-info">
+                    <h3>
+                        <a href ng-href="#/photo/{{ photo.id }}">{{ photo.title }}</a>
+                    </h3>
+                    <span class="photo-date col-xs-12 hidden-md hidden-lg">Published {{ photo.date_taken | ordinalDate:"d MMM yyyy 'at' H:m" }}</span>
+                    <div class="photo-links">
+                        <a href="https://www.flickr.com/photos/{{ photo.author_id }}" class="photo-author col-xs-6 col-md-3">{{ photo.author_name }}</a>
+                        <span class="photo-date visible-md visible-lg col-md-6">Published {{ photo.date_taken | ordinalDate:"d MMM yyyy 'at' H:m" }}</span>
+                        <a href="{{ photo.link }}" class="photo-link col-xs-6 col-md-3">View on Flickr</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
